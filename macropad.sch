@@ -49,12 +49,12 @@ $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch SW?
 U 1 1 5D79E7D6
-P 3600 4300
-F 0 "SW?" H 3600 4667 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 3600 4576 50  0000 C CNN
-F 2 "" H 3450 4460 50  0001 C CNN
-F 3 "~" H 3600 4560 50  0001 C CNN
-	1    3600 4300
+P 3600 4350
+F 0 "SW?" H 3600 4717 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3600 4626 50  0000 C CNN
+F 2 "" H 3450 4510 50  0001 C CNN
+F 3 "~" H 3600 4610 50  0001 C CNN
+	1    3600 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -115,12 +115,12 @@ $EndComp
 $Comp
 L Device:D_ALT D?
 U 1 1 5D79F668
-P 3900 4550
-F 0 "D?" V 3946 4471 50  0000 R CNN
-F 1 "D_ALT" V 3855 4471 50  0000 R CNN
-F 2 "" H 3900 4550 50  0001 C CNN
-F 3 "~" H 3900 4550 50  0001 C CNN
-	1    3900 4550
+P 3900 4600
+F 0 "D?" V 3946 4521 50  0000 R CNN
+F 1 "D_ALT" V 3855 4521 50  0000 R CNN
+F 2 "" H 3900 4600 50  0001 C CNN
+F 3 "~" H 3900 4600 50  0001 C CNN
+	1    3900 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -156,4 +156,81 @@ F 3 "~" H 5650 4600 50  0001 C CNN
 	1    5650 4600
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3950 2100 4300 2100
+Wire Wire Line
+	4300 2100 4300 3100
+Wire Wire Line
+	4300 3100 3900 3100
+Wire Wire Line
+	3900 4250 4300 4250
+Wire Wire Line
+	4300 4250 4300 3100
+Connection ~ 4300 3100
+Wire Wire Line
+	4300 2100 4300 1600
+Connection ~ 4300 2100
+Text GLabel 4300 1550 1    50   Input ~ 0
+COL0
+Text GLabel 5900 1550 1    50   Input ~ 0
+COL1
+Wire Wire Line
+	5900 1550 5900 2100
+Wire Wire Line
+	5900 2100 5650 2100
+Wire Wire Line
+	5900 2100 5900 3100
+Wire Wire Line
+	5900 3100 5650 3100
+Connection ~ 5900 2100
+Wire Wire Line
+	5900 3100 5900 4250
+Wire Wire Line
+	5900 4250 5650 4250
+Connection ~ 5900 3100
+Wire Wire Line
+	5650 2600 3950 2600
+Connection ~ 3950 2600
+Wire Wire Line
+	3950 2600 2800 2600
+Wire Wire Line
+	5650 3600 3900 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 2800 3600
+Wire Wire Line
+	5650 4750 3900 4750
+Connection ~ 3900 4750
+Wire Wire Line
+	3900 4750 2800 4750
+Text GLabel 2800 2600 0    50   Input ~ 0
+ROW0
+Text GLabel 2800 3600 0    50   Input ~ 0
+ROW1
+Text GLabel 2800 4750 0    50   Input ~ 0
+ROW2
+Text GLabel 3350 2200 0    50   Input ~ 0
+GND
+Text GLabel 3300 3200 0    50   Input ~ 0
+GND
+Text GLabel 3300 4350 0    50   Input ~ 0
+GND
+Text GLabel 5050 2200 0    50   Input ~ 0
+GND
+Text GLabel 5050 3200 0    50   Input ~ 0
+GND
+Text GLabel 5050 4350 0    50   Input ~ 0
+GND
+Text GLabel 7100 2200 0    50   Input ~ 0
+GND
+Text GLabel 7100 2600 0    50   Input ~ 0
+ROW0
+Text GLabel 7100 2700 0    50   Input ~ 0
+ROW1
+Text GLabel 7100 2800 0    50   Input ~ 0
+ROW2
+Text GLabel 7100 2900 0    50   Input ~ 0
+COL0
+Text GLabel 7100 3000 0    50   Input ~ 0
+COL1
 $EndSCHEMATC
