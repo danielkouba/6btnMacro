@@ -234,17 +234,17 @@ Text GLabel 7100 2900 0    50   Input ~ 0
 COL0
 Text GLabel 7100 3000 0    50   Input ~ 0
 COL1
-Text GLabel 3350 2100 0    50   Input ~ 0
-RE0-0
 Text GLabel 3350 2300 0    50   Input ~ 0
+RE0-0
+Text GLabel 3350 2100 0    50   Input ~ 0
 RE0-1
 Text GLabel 5050 2100 0    50   Input ~ 0
 RE1-0
 Text GLabel 5050 2300 0    50   Input ~ 0
 RE1-1
-Text GLabel 3300 3100 0    50   Input ~ 0
+Text GLabel 5050 4250 0    50   Input ~ 0
 RE2-0
-Text GLabel 3300 3300 0    50   Input ~ 0
+Text GLabel 5050 4450 0    50   Input ~ 0
 RE2-1
 Text GLabel 5050 3100 0    50   Input ~ 0
 RE3-0
@@ -254,9 +254,9 @@ Text GLabel 3300 4250 0    50   Input ~ 0
 RE4-0
 Text GLabel 3300 4450 0    50   Input ~ 0
 RE4-1
-Text GLabel 5050 4250 0    50   Input ~ 0
+Text GLabel 3300 3300 0    50   Input ~ 0
 RE5-0
-Text GLabel 5050 4450 0    50   Input ~ 0
+Text GLabel 3300 3100 0    50   Input ~ 0
 RE5-1
 Text GLabel 7100 2000 0    50   Input ~ 0
 RE0-0
