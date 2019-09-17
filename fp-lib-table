@@ -6,4 +6,5 @@
   (lib (name Rotary_Encoder)(type KiCad)(uri ${KIPRJMOD}/Rotary_Encoder.pretty)(options "")(descr ""))
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name Lily58-footprint)(type KiCad)(uri ${KIPRJMOD}/Lily58-footprint.pretty)(options "")(descr ""))
 )
